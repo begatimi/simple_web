@@ -1,0 +1,23 @@
+[
+    {
+        "BlogId": "1234",
+        "Title": "Blog1",
+        "Description": "Pershkrimi i blog 1",
+        "Image": "images\\1.png",
+        "Author": "Admini"
+    },
+    {
+        "BlogId": "12345",
+        "Title": "Blog2",
+        "Description": "Pershkrimi i blog 2",
+        "Image": "images\\2.png",
+        "Author": "Admini"
+    },
+    {
+        "BlogId": "12346",
+        "Title": "Blog3",
+        "Description": "Pershkrimi i blog 3",
+        "Image": "images\\3.png",
+        "Author": "Admini"
+    }
+]
