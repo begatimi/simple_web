@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Excentrixx</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~Header~~~~~~~~~~~~~~~~~~~~-->
+<header>
+	<div id="logo">
+		<a href="Index.html"><img id="logo" src="images/logo.png" alt="logo" width="900" height="100" /></a>
+	</div>
+</header>
+
+<body>
+	<div class="menudiv">
+		<a href="#home">HOME</a>
+		<a href="about.php">ABOUT US</a>
+		<a href="#contact">BLOG</a>
+		<a href="#about">SUPPORT</a>
+		<a href="#support">SERVICES</a>
+		<a href="#blog">CLIENT SUPPORT</a>
+		<a href="contact.php">CONTACT</a>
+		<a href="register.php">REGISTER</a>
+		<a href="login.php">LOGIN</a>
+	</div>
+
+	<div id="content" style="height: 600px">
+		<address>
+			<h1 id="border_img">
+				<font face="verdana" size="6" color="black">Contact<span id="demo"></span></font>
+			</h1>
+
+			<p>Bregu i Diellit, p.n.</p>
+			<p>10000 Prishtin&euml;, Republika e Kosov&euml;s</p>
+			<br />
+			<p><b>Tel.:</b> <i>+381(0)38 554 896 ext.102</i></p>
+			<p><strong>Fax:</strong> <i>+381(0)38 542 525</i></p>
+			<p><strong>E-mail:</strong> <u><a href="mailto:fiek@uni-pr.com">fiek@uni-pr.com</a></u></p>
+			<p>
+				<a href="http://fb.com" target="_blank"><img height="40px" width="40px" src="images/social/facebook.png"
+						alt="facebook" /></a>
+				<a href="http://twitter.com" target="_blank"><img height="40px" width="40px"
+						src="images/social/twitter.png" alt="twitter" /></a>
+				<a href="http://plus.google.com" target="_blank"><img height="40px" width="40px"
+						src="images/social/google_plus.png" alt="google plus" /></a>
+			</p>
+		</address>
+		<form accept-charset="UTF-8" enctype="multipart/form-data" onsubmit="return DergoEmail();">
+			<label>Name:</label>
+			<input type="text" id="name" name="name" placeholder="Enter name" class="form-control" required >
+
+			<label>E-Mail:</label>
+			<input type="text" id="email" name="email" placeholder="Enter email" required>
+
+			<label>Subject:</label>
+			<input type="text" name="subject" id="subject" placeholder="Enter subject" required>
+
+			<label>Message:</label>
+			<textarea placeholder="Write your message here" name="message" id="message" rows="6" required></textarea>
+
+			<input type="checkbox" id="dataPrivacy" required>
+			<label for="dataPrivacy"> Hiermit werden unsere 
+				<a class="link" href="privacy.html" target="_blank" style="color: #72af30;"> Datenschutz </a> akzeptiert. * 
+			</label>
+
+			<button name="submit" type="submit"> Send</button>
+		</form>
+	</div>
+	<footer>
+		<div class="footer_bottom">
+			<table>
+				<tr style="color:white;">
+					<td style="padding-left:30px;">
+						<p>Excentrixx 2011</p>
+					</td>
+					<ul>
+						<td style="padding-left:450px;">HOME</td>
+						<td style="padding-left:30px;">ABOUT US</td>
+						<td style="padding-left:30px;">BLOG</td>
+						<td style="padding-left:30px;">SUPPORT</td>
+						<td style="padding-left:30px;">SERVICES</td>
+						<td style="padding-left:30px;">CLIENT SUPPORT</td>
+						<td style="padding-left:30px;">CONTACT</td>
+					</ul>
+				</tr>
+			</table>
+		</div>
+	</footer>
+</body>
+</html>
